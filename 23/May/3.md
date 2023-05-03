@@ -1,190 +1,190 @@
+**ID:** 1  
 **Title:** Company classification using zero-shot learning  
-**PDF:** https://arxiv.org/pdf/2305.01028
-
+**PDF:** https://arxiv.org/pdf/2305.01028  
 **Abstract:** In recent years, natural language processing (NLP) has become increasingly important in a variety of business applications, including sentiment analysis, text classification, and named entity recognition. In this paper, we propose an approach for company classification using NLP and zero-shot learning. Our method utilizes pre-trained transformer models to extract features from company descriptions, and then applies zero-shot learning to classify companies into relevant categories without the need for specific training data for each category. We evaluate our approach on publicly available datasets of textual descriptions of companies, and demonstrate that it can streamline the process of company classification, thereby reducing the time and resources required in traditional approaches such as the Global Industry Classification Standard (GICS). The results show that this method has potential for automation of company classification, making it a promising avenue for future research in this area. 
 
+**ID:** 2  
 **Title:** CLIP-S$^4$: Language-Guided Self-Supervised Semantic Segmentation  
-**PDF:** https://arxiv.org/pdf/2305.01040
-
+**PDF:** https://arxiv.org/pdf/2305.01040  
 **Abstract:** Existing semantic segmentation approaches are often limited by costly pixel-wise annotations and predefined classes. In this work, we present CLIP-S$^4$ that leverages self-supervised pixel representation learning and vision-language models to enable various semantic segmentation tasks (e.g., unsupervised, transfer learning, language-driven segmentation) without any human annotations and unknown class information. We first learn pixel embeddings with pixel-segment contrastive learning from different augmented views of images. To further improve the pixel embeddings and enable language-driven semantic segmentation, we design two types of consistency guided by vision-language models: 1) embedding consistency, aligning our pixel embeddings to the joint feature space of a pre-trained vision-language model, CLIP; and 2) semantic consistency, forcing our model to make the same predictions as CLIP over a set of carefully designed target classes with both known and unknown prototypes. Thus, CLIP-S$^4$ enables a new task of class-free semantic segmentation where no unknown class information is needed during training. As a result, our approach shows consistent and substantial performance improvement over four popular benchmarks compared with the state-of-the-art unsupervised and language-driven semantic segmentation methods. More importantly, our method outperforms these methods on unknown class recognition by a large margin. 
 
+**ID:** 3  
 **Title:** SafeWebUH at SemEval-2023 Task 11: Learning Annotator Disagreement in  Derogatory Text: Comparison of Direct Training vs Aggregation  
-**PDF:** https://arxiv.org/pdf/2305.01050
-
+**PDF:** https://arxiv.org/pdf/2305.01050  
 **Abstract:** Subjectivity and difference of opinion are key social phenomena, and it is crucial to take these into account in the annotation and detection process of derogatory textual content. In this paper, we use four datasets provided by SemEval-2023 Task 11 and fine-tune a BERT model to capture the disagreement in the annotation. We find individual annotator modeling and aggregation lowers the Cross-Entropy score by an average of 0.21, compared to the direct training on the soft labels. Our findings further demonstrate that annotator metadata contributes to the average 0.029 reduction in the Cross-Entropy score. 
 
+**ID:** 4  
 **Title:** Logion: Machine Learning for Greek Philology  
-**PDF:** https://arxiv.org/pdf/2305.01099
-
+**PDF:** https://arxiv.org/pdf/2305.01099  
 **Abstract:** This paper presents machine-learning methods to address various problems in Greek philology. After training a BERT model on the largest premodern Greek dataset used for this purpose to date, we identify and correct previously undetected errors made by scribes in the process of textual transmission, in what is, to our knowledge, the first successful identification of such errors via machine learning. Additionally, we demonstrate the model's capacity to fill gaps caused by material deterioration of premodern manuscripts and compare the model's performance to that of a domain expert. We find that best performance is achieved when the domain expert is provided with model suggestions for inspiration. With such human-computer collaborations in mind, we explore the model's interpretability and find that certain attention heads appear to encode select grammatical features of premodern Greek. 
 
+**ID:** 5  
 **Title:** In-Context Learning Unlocked for Diffusion Models  
-**PDF:** https://arxiv.org/pdf/2305.01115
-
+**PDF:** https://arxiv.org/pdf/2305.01115  
 **Abstract:** We present Prompt Diffusion, a framework for enabling in-context learning in diffusion-based generative models. Given a pair of task-specific example images, such as depth from/to image and scribble from/to image, and a text guidance, our model automatically understands the underlying task and performs the same task on a new query image following the text guidance. To achieve this, we propose a vision-language prompt that can model a wide range of vision-language tasks and a diffusion model that takes it as input. The diffusion model is trained jointly over six different tasks using these prompts. The resulting Prompt Diffusion model is the first diffusion-based vision-language foundation model capable of in-context learning. It demonstrates high-quality in-context generation on the trained tasks and generalizes effectively to new, unseen vision tasks with their respective prompts. Our model also shows compelling text-guided image editing results. Our framework, with code publicly available at https://github.com/Zhendong-Wang/Prompt-Diffusion, aims to facilitate research into in-context learning for computer vision. 
 
+**ID:** 6  
 **Title:** Geometric Latent Diffusion Models for 3D Molecule Generation  
-**PDF:** https://arxiv.org/pdf/2305.01140
-
+**PDF:** https://arxiv.org/pdf/2305.01140  
 **Abstract:** Generative models, especially diffusion models (DMs), have achieved promising results for generating feature-rich geometries and advancing foundational science problems such as molecule design. Inspired by the recent huge success of Stable (latent) Diffusion models, we propose a novel and principled method for 3D molecule generation named Geometric Latent Diffusion Models (GeoLDM). GeoLDM is the first latent DM model for the molecular geometry domain, composed of autoencoders encoding structures into continuous latent codes and DMs operating in the latent space. Our key innovation is that for modeling the 3D molecular geometries, we capture its critical roto-translational equivariance constraints by building a point-structured latent space with both invariant scalars and equivariant tensors. Extensive experiments demonstrate that GeoLDM can consistently achieve better performance on multiple molecule generation benchmarks, with up to 7\% improvement for the valid percentage of large biomolecules. Results also demonstrate GeoLDM's higher capacity for controllable generation thanks to the latent modeling. Code is provided at \url{https://github.com/MinkaiXu/GeoLDM}. 
 
+**ID:** 7  
 **Title:** ADVISE: AI-accelerated Design of Evidence Synthesis for Global  Development  
-**PDF:** https://arxiv.org/pdf/2305.01145
-
+**PDF:** https://arxiv.org/pdf/2305.01145  
 **Abstract:** When designing evidence-based policies and programs, decision-makers must distill key information from a vast and rapidly growing literature base. Identifying relevant literature from raw search results is time and resource intensive, and is often done by manual screening. In this study, we develop an AI agent based on a bidirectional encoder representations from transformers (BERT) model and incorporate it into a human team designing an evidence synthesis product for global development. We explore the effectiveness of the human-AI hybrid team in accelerating the evidence synthesis process. To further improve team efficiency, we enhance the human-AI hybrid team through active learning (AL). Specifically, we explore different sampling strategies, including random sampling, least confidence (LC) sampling, and highest priority (HP) sampling, to study their influence on the collaborative screening process. Results show that incorporating the BERT-based AI agent into the human team can reduce the human screening effort by 68.5% compared to the case of no AI assistance and by 16.8% compared to the case of using a support vector machine (SVM)-based AI agent for identifying 80% of all relevant documents. When we apply the HP sampling strategy for AL, the human screening effort can be reduced even more: by 78.3% for identifying 80% of all relevant documents compared to no AI assistance. We apply the AL-enhanced human-AI hybrid teaming workflow in the design process of three evidence gap maps (EGMs) for USAID and find it to be highly effective. These findings demonstrate how AI can accelerate the development of evidence synthesis products and promote timely evidence-based decision making in global development in a human-AI hybrid teaming context. 
 
+**ID:** 8  
 **Title:** PU-EdgeFormer: Edge Transformer for Dense Prediction in Point Cloud  Upsampling  
-**PDF:** https://arxiv.org/pdf/2305.01148
-
+**PDF:** https://arxiv.org/pdf/2305.01148  
 **Abstract:** Despite the recent development of deep learning-based point cloud upsampling, most MLP-based point cloud upsampling methods have limitations in that it is difficult to train the local and global structure of the point cloud at the same time. To solve this problem, we present a combined graph convolution and transformer for point cloud upsampling, denoted by PU-EdgeFormer. The proposed method constructs EdgeFormer unit that consists of graph convolution and multi-head self-attention modules. We employ graph convolution using EdgeConv, which learns the local geometry and global structure of point cloud better than existing point-to-feature method. Through in-depth experiments, we confirmed that the proposed method has better point cloud upsampling performance than the existing state-of-the-art method in both subjective and objective aspects. The code is available at https://github.com/dohoon2045/PU-EdgeFormer. 
 
+**ID:** 9  
 **Title:** Federated Neural Radiance Fields  
-**PDF:** https://arxiv.org/pdf/2305.01163
-
+**PDF:** https://arxiv.org/pdf/2305.01163  
 **Abstract:** The ability of neural radiance fields or NeRFs to conduct accurate 3D modelling has motivated application of the technique to scene representation. Previous approaches have mainly followed a centralised learning paradigm, which assumes that all training images are available on one compute node for training. In this paper, we consider training NeRFs in a federated manner, whereby multiple compute nodes, each having acquired a distinct set of observations of the overall scene, learn a common NeRF in parallel. This supports the scenario of cooperatively modelling a scene using multiple agents. Our contribution is the first federated learning algorithm for NeRF, which splits the training effort across multiple compute nodes and obviates the need to pool the images at a central node. A technique based on low-rank decomposition of NeRF layers is introduced to reduce bandwidth consumption to transmit the model parameters for aggregation. Transferring compressed models instead of the raw data also contributes to the privacy of the data collecting agents. 
 
+**ID:** 10  
 **Title:** Solving Inverse Problems with Score-Based Generative Priors learned from  Noisy Data  
-**PDF:** https://arxiv.org/pdf/2305.01166
-
+**PDF:** https://arxiv.org/pdf/2305.01166  
 **Abstract:** We present SURE-Score: an approach for learning score-based generative models using training samples corrupted by additive Gaussian noise. When a large training set of clean samples is available, solving inverse problems via score-based (diffusion) generative models trained on the underlying fully-sampled data distribution has recently been shown to outperform end-to-end supervised deep learning. In practice, such a large collection of training data may be prohibitively expensive to acquire in the first place. In this work, we present an approach for approximately learning a score-based generative model of the clean distribution, from noisy training data. We formulate and justify a novel loss function that leverages Stein's unbiased risk estimate to jointly denoise the data and learn the score function via denoising score matching, while using only the noisy samples. We demonstrate the generality of SURE-Score by learning priors and applying posterior sampling to ill-posed inverse problems in two practical applications from different domains: compressive wireless multiple-input multiple-output channel estimation and accelerated 2D multi-coil magnetic resonance imaging reconstruction, where we demonstrate competitive reconstruction performance when learning at signal-to-noise ratio values of 0 and 10 dB, respectively. 
 
+**ID:** 11  
 **Title:** New Trends in Machine Translation using Large Language Models: Case  Examples with ChatGPT  
-**PDF:** https://arxiv.org/pdf/2305.01181
-
+**PDF:** https://arxiv.org/pdf/2305.01181  
 **Abstract:** Machine Translation (MT) has made significant progress in recent years using deep learning, especially after the emergence of large language models (LLMs) such as GPT-3 and ChatGPT. This brings new challenges and opportunities for MT using LLMs. In this paper, we brainstorm some interesting directions for MT using LLMs, including stylized MT, interactive MT, and Translation Memory-based MT, as well as a new evaluation paradigm using LLMs. We also discuss the privacy concerns in MT using LLMs and a basic privacy-preserving method to mitigate such risks. To illustrate the potential of our proposed directions, we present several examples for the new directions mentioned above, demonstrating the feasibility of the proposed directions and highlight the opportunities and challenges for future research in MT using LLMs. 
 
+**ID:** 12  
 **Title:** LatentAvatar: Learning Latent Expression Code for Expressive Neural Head  Avatar  
-**PDF:** https://arxiv.org/pdf/2305.01190
-
+**PDF:** https://arxiv.org/pdf/2305.01190  
 **Abstract:** Existing approaches to animatable NeRF-based head avatars are either built upon face templates or use the expression coefficients of templates as the driving signal. Despite the promising progress, their performances are heavily bound by the expression power and the tracking accuracy of the templates. In this work, we present LatentAvatar, an expressive neural head avatar driven by latent expression codes. Such latent expression codes are learned in an end-to-end and self-supervised manner without templates, enabling our method to get rid of expression and tracking issues. To achieve this, we leverage a latent head NeRF to learn the person-specific latent expression codes from a monocular portrait video, and further design a Y-shaped network to learn the shared latent expression codes of different subjects for cross-identity reenactment. By optimizing the photometric reconstruction objectives in NeRF, the latent expression codes are learned to be 3D-aware while faithfully capturing the high-frequency detailed expressions. Moreover, by learning a mapping between the latent expression code learned in shared and person-specific settings, LatentAvatar is able to perform expressive reenactment between different subjects. Experimental results show that our LatentAvatar is able to capture challenging expressions and the subtle movement of teeth and even eyeballs, which outperforms previous state-of-the-art solutions in both quantitative and qualitative comparisons. Project page: https://www.liuyebin.com/latentavatar. 
 
+**ID:** 13  
 **Title:** Is Your Code Generated by ChatGPT Really Correct? Rigorous Evaluation of  Large Language Models for Code Generation  
-**PDF:** https://arxiv.org/pdf/2305.01210
-
+**PDF:** https://arxiv.org/pdf/2305.01210  
 **Abstract:** Program synthesis has been long studied with recent approaches focused on directly using the power of Large Language Models (LLMs) to generate code according to user intent written in natural language. Code evaluation datasets, containing curated synthesis problems with input/output test-cases, are used to measure the performance of various LLMs on code synthesis. However, test-cases in these datasets can be limited in both quantity and quality for fully assessing the functional correctness of the generated code. Such limitation in the existing benchmarks begs the following question: In the era of LLMs, is the code generated really correct? To answer this, we propose EvalPlus -- a code synthesis benchmarking framework to rigorously evaluate the functional correctness of LLM-synthesized code. In short, EvalPlus takes in the base evaluation dataset and uses an automatic input generation step to produce and diversify large amounts of new test inputs using both LLM-based and mutation-based input generators to further validate the synthesized code. We extend the popular HUMANEVAL benchmark and build HUMANEVAL+ with 81x additionally generated tests. Our extensive evaluation across 14 popular LLMs demonstrates that HUMANEVAL+ is able to catch significant amounts of previously undetected wrong code synthesized by LLMs, reducing the pass@k by 15.1% on average! Moreover, we even found several incorrect ground-truth implementations in HUMANEVAL. Our work not only indicates that prior popular code synthesis evaluation results do not accurately reflect the true performance of LLMs for code synthesis but also opens up a new direction to improve programming benchmarks through automated test input generation. 
 
+**ID:** 14  
 **Title:** AQ-GT: a Temporally Aligned and Quantized GRU-Transformer for Co-Speech  Gesture Synthesis  
-**PDF:** https://arxiv.org/pdf/2305.01241
-
+**PDF:** https://arxiv.org/pdf/2305.01241  
 **Abstract:** The generation of realistic and contextually relevant co-speech gestures is a challenging yet increasingly important task in the creation of multimodal artificial agents. Prior methods focused on learning a direct correspondence between co-speech gesture representations and produced motions, which created seemingly natural but often unconvincing gestures during human assessment. We present an approach to pre-train partial gesture sequences using a generative adversarial network with a quantization pipeline. The resulting codebook vectors serve as both input and output in our framework, forming the basis for the generation and reconstruction of gestures. By learning the mapping of a latent space representation as opposed to directly mapping it to a vector representation, this framework facilitates the generation of highly realistic and expressive gestures that closely replicate human movement and behavior, while simultaneously avoiding artifacts in the generation process. We evaluate our approach by comparing it with established methods for generating co-speech gestures as well as with existing datasets of human behavior. We also perform an ablation study to assess our findings. The results show that our approach outperforms the current state of the art by a clear margin and is partially indistinguishable from human gesturing. We make our data pipeline and the generation framework publicly available. 
 
+**ID:** 15  
 **Title:** DreamPaint: Few-Shot Inpainting of E-Commerce Items for Virtual Try-On  without 3D Modeling  
-**PDF:** https://arxiv.org/pdf/2305.01257
-
+**PDF:** https://arxiv.org/pdf/2305.01257  
 **Abstract:** We introduce DreamPaint, a framework to intelligently inpaint any e-commerce product on any user-provided context image. The context image can be, for example, the user's own image for virtual try-on of clothes from the e-commerce catalog on themselves, the user's room image for virtual try-on of a piece of furniture from the e-commerce catalog in their room, etc. As opposed to previous augmented-reality (AR)-based virtual try-on methods, DreamPaint does not use, nor does it require, 3D modeling of neither the e-commerce product nor the user context. Instead, it directly uses 2D images of the product as available in product catalog database, and a 2D picture of the context, for example taken from the user's phone camera. The method relies on few-shot fine tuning a pre-trained diffusion model with the masked latents (e.g., Masked DreamBooth) of the catalog images per item, whose weights are then loaded on a pre-trained inpainting module that is capable of preserving the characteristics of the context image. DreamPaint allows to preserve both the product image and the context (environment/user) image without requiring text guidance to describe the missing part (product/context). DreamPaint also allows to intelligently infer the best 3D angle of the product to place at the desired location on the user context, even if that angle was previously unseen in the product's reference 2D images. We compare our results against both text-guided and image-guided inpainting modules and show that DreamPaint yields superior performance in both subjective human study and quantitative metrics. 
 
+**ID:** 16  
 **Title:** Exploring vision transformer layer choosing for semantic segmentation  
-**PDF:** https://arxiv.org/pdf/2305.01279
-
+**PDF:** https://arxiv.org/pdf/2305.01279  
 **Abstract:** Extensive work has demonstrated the effectiveness of Vision Transformers. The plain Vision Transformer tends to obtain multi-scale features by selecting fixed layers, or the last layer of features aiming to achieve higher performance in dense prediction tasks. However, this selection is often based on manual operation. And different samples often exhibit different features at different layers (e.g., edge, structure, texture, detail, etc.). This requires us to seek a dynamic adaptive fusion method to filter different layer features. In this paper, unlike previous encoder and decoder work, we design a neck network for adaptive fusion and feature selection, called ViTController. We validate the effectiveness of our method on different datasets and models and surpass previous state-of-the-art methods. Finally, our method can also be used as a plug-in module and inserted into different networks. 
 
+**ID:** 17  
 **Title:** AxWin Transformer: A Context-Aware Vision Transformer Backbone with  Axial Windows  
-**PDF:** https://arxiv.org/pdf/2305.01280
-
+**PDF:** https://arxiv.org/pdf/2305.01280  
 **Abstract:** Recently Transformer has shown good performance in several vision tasks due to its powerful modeling capabilities. To reduce the quadratic complexity caused by the attention, some outstanding work restricts attention to local regions or extends axial interactions. However, these methos often lack the interaction of local and global information, balancing coarse and fine-grained information. To address this problem, we propose AxWin Attention, which models context information in both local windows and axial views. Based on the AxWin Attention, we develop a context-aware vision transformer backbone, named AxWin Transformer, which outperforming the state-of-the-art methods in both classification and downstream segmentation and detection tasks. 
 
+**ID:** 18  
 **Title:** An extension of Overbeck's attack with an application to cryptanalysis  of Twisted Gabidulin-based schemes  
-**PDF:** https://arxiv.org/pdf/2305.01287
-
+**PDF:** https://arxiv.org/pdf/2305.01287  
 **Abstract:** In the present article, we discuss the decoding of Gabidulin and related codes from a cryptographic perspective and we observe that these codes can be decoded with the single knowledge of a generator matrix. Then, we extend and revisit Gibson's and Overbeck's attacks on the generalised GPT encryption scheme (instantiated with Gabidulin codes) for various ranks of the distortion matrix and apply our attack to the case of an instantiation with twisted Gabidulin codes. 
 
+**ID:** 19  
 **Title:** Long-Term Rhythmic Video Soundtracker  
-**PDF:** https://arxiv.org/pdf/2305.01319
-
+**PDF:** https://arxiv.org/pdf/2305.01319  
 **Abstract:** We consider the problem of generating musical soundtracks in sync with rhythmic visual cues. Most existing works rely on pre-defined music representations, leading to the incompetence of generative flexibility and complexity. Other methods directly generating video-conditioned waveforms suffer from limited scenarios, short lengths, and unstable generation quality. To this end, we present Long-Term Rhythmic Video Soundtracker (LORIS), a novel framework to synthesize long-term conditional waveforms. Specifically, our framework consists of a latent conditional diffusion probabilistic model to perform waveform synthesis. Furthermore, a series of context-aware conditioning encoders are proposed to take temporal information into consideration for a long-term generation. Notably, we extend our model's applicability from dances to multiple sports scenarios such as floor exercise and figure skating. To perform comprehensive evaluations, we establish a benchmark for rhythmic video soundtracks including the pre-processed dataset, improved evaluation metrics, and robust generative baselines. Extensive experiments show that our model generates long-term soundtracks with state-of-the-art musical quality and rhythmic correspondence. Codes are available at \url{https://github.com/OpenGVLab/LORIS}. 
 
+**ID:** 20  
 **Title:** Higher-Order GFDM for Linear Elliptic Operators  
-**PDF:** https://arxiv.org/pdf/2305.01320
-
+**PDF:** https://arxiv.org/pdf/2305.01320  
 **Abstract:** We present a novel approach of discretizing diffusion operators of the form $\nabla\cdot(\lambda\nabla u)$ in the context of meshfree generalized finite difference methods. Our ansatz uses properties of derived operators and combines the discrete Laplace operator with reconstruction functions approximating the diffusion coefficient $\lambda$. Provided that the reconstructions are of a sufficiently high order, we prove that the order of accuracy of the discrete Laplace operator transfers to the derived diffusion operator. We show that the new discrete diffusion operator inherits the diagonal dominance property of the discrete Laplace operator and fulfills enrichment properties. Our numerical results for elliptic and parabolic partial differential equations show that even low-order reconstructions preserve the order of the underlying discrete Laplace operator for sufficiently smooth diffusion coefficients. In experiments, we demonstrate the applicability of the new discrete diffusion operator to interface problems with point clouds not aligning to the interface and numerically prove first-order convergence. 
 
+**ID:** 21  
 **Title:** Adopting AI: How Familiarity Breeds Both Trust and Contempt  
-**PDF:** https://arxiv.org/pdf/2305.01405
-
+**PDF:** https://arxiv.org/pdf/2305.01405  
 **Abstract:** Despite pronouncements about the inevitable diffusion of artificial intelligence and autonomous technologies, in practice it is human behavior, not technology in a vacuum, that dictates how technology seeps into -- and changes -- societies. In order to better understand how human preferences shape technological adoption and the spread of AI-enabled autonomous technologies, we look at representative adult samples of US public opinion in 2018 and 2020 on the use of four types of autonomous technologies: vehicles, surgery, weapons, and cyber defense. By focusing on these four diverse uses of AI-enabled autonomy that span transportation, medicine, and national security, we exploit the inherent variation between these AI-enabled autonomous use cases. We find that those with familiarity and expertise with AI and similar technologies were more likely to support all of the autonomous applications we tested (except weapons) than those with a limited understanding of the technology. Individuals that had already delegated the act of driving by using ride-share apps were also more positive about autonomous vehicles. However, familiarity cut both ways; individuals are also less likely to support AI-enabled technologies when applied directly to their life, especially if technology automates tasks they are already familiar with operating. Finally, opposition to AI-enabled military applications has slightly increased over time. 
 
+**ID:** 22  
 **Title:** Scalable Mask Annotation for Video Text Spotting  
-**PDF:** https://arxiv.org/pdf/2305.01443
-
+**PDF:** https://arxiv.org/pdf/2305.01443  
 **Abstract:** Video text spotting refers to localizing, recognizing, and tracking textual elements such as captions, logos, license plates, signs, and other forms of text within consecutive video frames. However, current datasets available for this task rely on quadrilateral ground truth annotations, which may result in including excessive background content and inaccurate text boundaries. Furthermore, methods trained on these datasets often produce prediction results in the form of quadrilateral boxes, which limits their ability to handle complex scenarios such as dense or curved text. To address these issues, we propose a scalable mask annotation pipeline called SAMText for video text spotting. SAMText leverages the SAM model to generate mask annotations for scene text images or video frames at scale. Using SAMText, we have created a large-scale dataset, SAMText-9M, that contains over 2,400 video clips sourced from existing datasets and over 9 million mask annotations. We have also conducted a thorough statistical analysis of the generated masks and their quality, identifying several research topics that could be further explored based on this dataset. The code and dataset will be released at \url{https://github.com/ViTAE-Transformer/SAMText}. 
 
+**ID:** 23  
 **Title:** ARBEx: Attentive Feature Extraction with Reliability Balancing for  Robust Facial Expression Learning  
-**PDF:** https://arxiv.org/pdf/2305.01486
-
+**PDF:** https://arxiv.org/pdf/2305.01486  
 **Abstract:** In this paper, we introduce a framework ARBEx, a novel attentive feature extraction framework driven by Vision Transformer with reliability balancing to cope against poor class distributions, bias, and uncertainty in the facial expression learning (FEL) task. We reinforce several data pre-processing and refinement methods along with a window-based cross-attention ViT to squeeze the best of the data. We also employ learnable anchor points in the embedding space with label distributions and multi-head self-attention mechanism to optimize performance against weak predictions with reliability balancing, which is a strategy that leverages anchor points, attention scores, and confidence values to enhance the resilience of label predictions. To ensure correct label classification and improve the models' discriminative power, we introduce anchor loss, which encourages large margins between anchor points. Additionally, the multi-head self-attention mechanism, which is also trainable, plays an integral role in identifying accurate labels. This approach provides critical elements for improving the reliability of predictions and has a substantial positive effect on final prediction capabilities. Our adaptive model can be integrated with any deep neural network to forestall challenges in various recognition tasks. Our strategy outperforms current state-of-the-art methodologies, according to extensive experiments conducted in a variety of contexts. 
 
+**ID:** 24  
 **Title:** NewsPanda: Media Monitoring for Timely Conservation Action  
-**PDF:** https://arxiv.org/pdf/2305.01503
-
+**PDF:** https://arxiv.org/pdf/2305.01503  
 **Abstract:** Non-governmental organizations for environmental conservation have a significant interest in monitoring conservation-related media and getting timely updates about infrastructure construction projects as they may cause massive impact to key conservation areas. Such monitoring, however, is difficult and time-consuming. We introduce NewsPanda, a toolkit which automatically detects and analyzes online articles related to environmental conservation and infrastructure construction. We fine-tune a BERT-based model using active learning methods and noise correction algorithms to identify articles that are relevant to conservation and infrastructure construction. For the identified articles, we perform further analysis, extracting keywords and finding potentially related sources. NewsPanda has been successfully deployed by the World Wide Fund for Nature teams in the UK, India, and Nepal since February 2022. It currently monitors over 80,000 websites and 1,074 conservation sites across India and Nepal, saving more than 30 hours of human efforts weekly. We have now scaled it up to cover 60,000 conservation sites globally. 
 
+**ID:** 25  
 **Title:** Beyond Classification: Financial Reasoning in State-of-the-Art Language  Models  
-**PDF:** https://arxiv.org/pdf/2305.01505
-
+**PDF:** https://arxiv.org/pdf/2305.01505  
 **Abstract:** Large Language Models (LLMs), consisting of 100 billion or more parameters, have demonstrated remarkable ability in complex multi-step reasoning tasks. However, the application of such generic advancements has been limited to a few fields, such as clinical or legal, with the field of financial reasoning remaining largely unexplored. To the best of our knowledge, the ability of LLMs to solve financial reasoning problems has never been dealt with, and whether it can be performed at any scale remains unknown. To address this knowledge gap, this research presents a comprehensive investigation into the potential application of LLMs in the financial domain. The investigation includes a detailed exploration of a range of subjects, including task formulation, synthetic data generation, prompting methods, and evaluation capability. Furthermore, the study benchmarks various GPT variants with parameter scales ranging from 2.8B to 13B, with and without instruction tuning, on diverse dataset sizes. By analyzing the results, we reveal that the ability to generate coherent financial reasoning first emerges at 6B parameters, and continues to improve with better instruction-tuning or larger datasets. Additionally, the study provides a publicly accessible dataset named sFIOG (Synthetic-Financial Investment Opinion Generation), consisting of 11,802 synthetic investment thesis samples, to support further research in the field of financial reasoning. Overall, this research seeks to contribute to the understanding of the efficacy of language models in the field of finance, with a particular emphasis on their ability to engage in sophisticated reasoning and analysis within the context of investment decision-making. 
 
+**ID:** 26  
 **Title:** Retrieving Comparative Arguments using Ensemble Methods and Neural  Information Retrieval  
-**PDF:** https://arxiv.org/pdf/2305.01513
-
+**PDF:** https://arxiv.org/pdf/2305.01513  
 **Abstract:** In this paper, we present a submission to the Touche lab's Task 2 on Argument Retrieval for Comparative Questions. Our team Katana supplies several approaches based on decision tree ensembles algorithms to rank comparative documents in accordance with their relevance and argumentative support. We use PyTerrier library to apply ensembles models to a ranking problem, considering statistical text features and features based on comparative structures. We also employ large contextualized language modelling techniques, such as BERT, to solve the proposed ranking task. To merge this technique with ranking modelling, we leverage neural ranking library OpenNIR. 
 
+**ID:** 27  
 **Title:** Unlocking the Power of Representations in Long-term Novelty-based  Exploration  
-**PDF:** https://arxiv.org/pdf/2305.01521
-
+**PDF:** https://arxiv.org/pdf/2305.01521  
 **Abstract:** We introduce Robust Exploration via Clustering-based Online Density Estimation (RECODE), a non-parametric method for novelty-based exploration that estimates visitation counts for clusters of states based on their similarity in a chosen embedding space. By adapting classical clustering to the nonstationary setting of Deep RL, RECODE can efficiently track state visitation counts over thousands of episodes. We further propose a novel generalization of the inverse dynamics loss, which leverages masked transformer architectures for multi-step prediction; which in conjunction with RECODE achieves a new state-of-the-art in a suite of challenging 3D-exploration tasks in DM-Hard-8. RECODE also sets new state-of-the-art in hard exploration Atari games, and is the first agent to reach the end screen in "Pitfall!". 
 
+**ID:** 28  
 **Title:** Touch and deformation perception of soft manipulators with capacitive  e-skins and deep learning  
-**PDF:** https://arxiv.org/pdf/2305.01545
-
+**PDF:** https://arxiv.org/pdf/2305.01545  
 **Abstract:** Tactile sensing in soft robots remains particularly challenging because of the coupling between contact and deformation information which the sensor is subject to during actuation and interaction with the environment. This often results in severe interference and makes disentangling tactile sensing and geometric deformation difficult. To address this problem, this paper proposes a soft capacitive e-skin with a sparse electrode distribution and deep learning for information decoupling. Our approach successfully separates tactile sensing from geometric deformation, enabling touch recognition on a soft pneumatic actuator subject to both internal (actuation) and external (manual handling) forces. Using a multi-layer perceptron, the proposed e-skin achieves 99.88\% accuracy in touch recognition across a range of deformations. When complemented with prior knowledge, a transformer-based architecture effectively tracks the deformation of the soft actuator. The average distance error in positional reconstruction of the manipulator is as low as 2.905$\pm$2.207 mm, even under operative conditions with different inflation states and physical contacts which lead to additional signal variations and consequently interfere with deformation tracking. These findings represent a tangible way forward in the development of e-skins that can endow soft robots with proprioception and exteroception. 
 
+**ID:** 29  
 **Title:** How to Unleash the Power of Large Language Models for Few-shot Relation  Extraction?  
-**PDF:** https://arxiv.org/pdf/2305.01555
-
+**PDF:** https://arxiv.org/pdf/2305.01555  
 **Abstract:** Scaling language models have revolutionized widespread NLP tasks, yet little comprehensively explored few-shot relation extraction with large language models. In this paper, we investigate principal methodologies, in-context learning and data generation, for few-shot relation extraction via GPT-3.5 through exhaustive experiments. To enhance few-shot performance, we further propose task-related instructions and schema-constrained data generation. We observe that in-context learning can achieve performance on par with previous prompt learning approaches, and data generation with the large language model can boost previous solutions to obtain new state-of-the-art few-shot results on four widely-studied relation extraction datasets. We hope our work can inspire future research for the capabilities of large language models in few-shot relation extraction. Code is available in \url{https://github.com/zjunlp/DeepKE/tree/main/example/llm. 
 
+**ID:** 30  
 **Title:** Pick-a-Pic: An Open Dataset of User Preferences for Text-to-Image  Generation  
-**PDF:** https://arxiv.org/pdf/2305.01569
-
+**PDF:** https://arxiv.org/pdf/2305.01569  
 **Abstract:** The ability to collect a large dataset of human preferences from text-to-image users is usually limited to companies, making such datasets inaccessible to the public. To address this issue, we create a web app that enables text-to-image users to generate images and specify their preferences. Using this web app we build Pick-a-Pic, a large, open dataset of text-to-image prompts and real users' preferences over generated images. We leverage this dataset to train a CLIP-based scoring function, PickScore, which exhibits superhuman performance on the task of predicting human preferences. Then, we test PickScore's ability to perform model evaluation and observe that it correlates better with human rankings than other automatic evaluation metrics. Therefore, we recommend using PickScore for evaluating future text-to-image generation models, and using Pick-a-Pic prompts as a more relevant dataset than MS-COCO. Finally, we demonstrate how PickScore can enhance existing text-to-image models via ranking. 
 
+**ID:** 31  
 **Title:** Discern and Answer: Mitigating the Impact of Misinformation in  Retrieval-Augmented Models with Discriminators  
-**PDF:** https://arxiv.org/pdf/2305.01579
-
+**PDF:** https://arxiv.org/pdf/2305.01579  
 **Abstract:** Most existing retrieval-augmented language models (LMs) for question answering assume all retrieved information is factually correct. In this work, we study a more realistic scenario in which retrieved documents may contain misinformation, causing conflicts among them. We observe that the existing models are highly brittle to such information in both fine-tuning and in-context few-shot learning settings. We propose approaches to make retrieval-augmented LMs robust to misinformation by explicitly fine-tuning a discriminator or prompting to elicit discrimination capability in GPT-3. Our empirical results on open-domain question answering show that these approaches significantly improve LMs' robustness to knowledge conflicts. We also provide our findings on interleaving the fine-tuned model's decision with the in-context learning process, paving a new path to leverage the best of both worlds. 
 
+**ID:** 32  
 **Title:** FreeLM: Fine-Tuning-Free Language Model  
-**PDF:** https://arxiv.org/pdf/2305.01616
-
+**PDF:** https://arxiv.org/pdf/2305.01616  
 **Abstract:** Pre-trained language models (PLMs) have achieved remarkable success in NLP tasks. Despite the great success, mainstream solutions largely follow the pre-training then finetuning paradigm, which brings in both high deployment costs and low training efficiency. Nevertheless, fine-tuning on a specific task is essential because PLMs are only pre-trained with language signal from large raw data. In this paper, we propose a novel fine-tuning-free strategy for language models, to consider both language signal and teacher signal. Teacher signal is an abstraction of a battery of downstream tasks, provided in a unified proposition format. Trained with both language and strong task-aware teacher signals in an interactive manner, our FreeLM model demonstrates strong generalization and robustness. FreeLM outperforms large models e.g., GPT-3 and InstructGPT, on a range of language understanding tasks in experiments. FreeLM is much smaller with 0.3B parameters, compared to 175B in these models. 
 
+**ID:** 33  
 **Title:** ContactArt: Learning 3D Interaction Priors for Category-level  Articulated Object and Hand Poses Estimation  
-**PDF:** https://arxiv.org/pdf/2305.01618
-
+**PDF:** https://arxiv.org/pdf/2305.01618  
 **Abstract:** We propose a new dataset and a novel approach to learning hand-object interaction priors for hand and articulated object pose estimation. We first collect a dataset using visual teleoperation, where the human operator can directly play within a physical simulator to manipulate the articulated objects. We record the data and obtain free and accurate annotations on object poses and contact information from the simulator. Our system only requires an iPhone to record human hand motion, which can be easily scaled up and largely lower the costs of data and annotation collection. With this data, we learn 3D interaction priors including a discriminator (in a GAN) capturing the distribution of how object parts are arranged, and a diffusion model which generates the contact regions on articulated objects, guiding the hand pose estimation. Such structural and contact priors can easily transfer to real-world data with barely any domain gap. By using our data and learned priors, our method significantly improves the performance on joint hand and articulated object poses estimation over the existing state-of-the-art methods. The project is available at https://zehaozhu.github.io/ContactArt/ . 
 
+**ID:** 34  
 **Title:** Unlimiformer: Long-Range Transformers with Unlimited Length Input  
-**PDF:** https://arxiv.org/pdf/2305.01625
-
+**PDF:** https://arxiv.org/pdf/2305.01625  
 **Abstract:** Transformer-based models typically have a predefined bound to their input length, because of their need to potentially attend to every token in the input. In this work, we propose Unlimiformer: a general approach that can wrap any existing pretrained encoder-decoder transformer, and offload the attention computation across all layers to a single $k$-nearest-neighbor index; this index can be kept on either the GPU or CPU memory and queried in sub-linear time. This way, we can index extremely long input sequences, while every attention head in every decoder layer retrieves its top-$k$ keys, instead of attending to every key. We demonstrate Unlimiformers's efficacy on several long-document and multi-document summarization benchmarks, showing that it can summarize even 350k token-long inputs from the BookSum dataset, without any input truncation at test time. Unlimiformer improves pretrained models such as BART and Longformer by extending them to unlimited inputs without additional learned weights and without modifying their code. We make our code and models publicly available at https://github.com/abertsch72/unlimiformer . 
 
+**ID:** 35  
 **Title:** Neural LiDAR Fields for Novel View Synthesis  
-**PDF:** https://arxiv.org/pdf/2305.01643
-
+**PDF:** https://arxiv.org/pdf/2305.01643  
 **Abstract:** We present Neural Fields for LiDAR (NFL), a method to optimise a neural field scene representation from LiDAR measurements, with the goal of synthesizing realistic LiDAR scans from novel viewpoints. NFL combines the rendering power of neural fields with a detailed, physically motivated model of the LiDAR sensing process, thus enabling it to accurately reproduce key sensor behaviors like beam divergence, secondary returns, and ray dropping. We evaluate NFL on synthetic and real LiDAR scans and show that it outperforms explicit reconstruct-then-simulate methods as well as other NeRF-style methods on LiDAR novel view synthesis task. Moreover, we show that the improved realism of the synthesized views narrows the domain gap to real scans and translates to better registration and semantic segmentation performance. 
 
+**ID:** 36  
 **Title:** High-Fidelity Image Synthesis from Pulmonary Nodule Lesion Maps using  Semantic Diffusion Model  
-**PDF:** https://arxiv.org/pdf/2305.01138
+**PDF:** https://arxiv.org/pdf/2305.01138  
+**Abstract:** Lung cancer has been one of the leading causes of cancer-related deaths worldwide for years. With the emergence of deep learning, computer-assisted diagnosis (CAD) models based on learning algorithms can accelerate the nodule screening process, providing valuable assistance to radiologists in their daily clinical workflows. However, developing such robust and accurate models often requires large-scale and diverse medical datasets with high-quality annotations. Generating synthetic data provides a pathway for augmenting datasets at a larger scale. Therefore, in this paper, we explore the use of Semantic Diffusion Mod- els (SDM) to generate high-fidelity pulmonary CT images from segmentation maps. We utilize annotation information from the LUNA16 dataset to create paired CT images and masks, and assess the quality of the generated images using the Frechet Inception Distance (FID), as well as on two common clinical downstream tasks: nodule detection and nodule localization. Achieving improvements of 3.96% for detection accuracy and 8.50% for AP50 in nodule localization task, respectively, demonstrates the feasibility of the approach. 
 
-**Abstract:** Lung cancer has been one of the leading causes of cancer-related deaths worldwide for years. With the emergence of deep learning, computer-assisted diagnosis (CAD) models based on learning algorithms can accelerate the nodule screening process, providing valuable assis- tance to radiologists in their daily clinical workflows. However, developing such robust and accurate models often requires large-scale and diverse medical datasets with high-quality annotations. Generating synthetic data provides a pathway for augmenting datasets at a larger scale. Therefore, in this paper, we explore the use of Semantic Diffusion Mod- els (SDM) to generate high-fidelity pulmonary CT images from segmentation maps. We utilize annotation information from the LUNA16 dataset to create paired CT images and masks, and assess the quality of the generated images using the Frechet Inception Distance (FID), as well as on two common clinical downstream tasks: nodule detection and nodule localization. Achieving improvements of 3.96% for detection accuracy and 8.50% for AP50 in nodule localization task, respectively, demonstrates the feasibility of the approach. 
-
+**ID:** 37  
 **Title:** Self-similarity-based super-resolution of photoacoustic angiography from  hand-drawn doodles  
-**PDF:** https://arxiv.org/pdf/2305.01165
-
+**PDF:** https://arxiv.org/pdf/2305.01165  
 **Abstract:** Deep-learning-based super-resolution photoacoustic angiography (PAA) is a powerful tool that restores blood vessel images from under-sampled images to facilitate disease diagnosis. Nonetheless, due to the scarcity of training samples, PAA super-resolution models often exhibit inadequate generalization capabilities, particularly in the context of continuous monitoring tasks. To address this challenge, we propose a novel approach that employs a super-resolution PAA method trained with forged PAA images. We start by generating realistic PAA images of human lips from hand-drawn curves using a diffusion-based image generation model. Subsequently, we train a self-similarity-based super-resolution model with these forged PAA images. Experimental results show that our method outperforms the super-resolution model trained with authentic PAA images in both original-domain and cross-domain tests. Specially, our approach boosts the quality of super-resolution reconstruction using the images forged by the deep learning model, indicating that the collaboration between deep learning models can facilitate generalization, despite limited initial dataset. This approach shows promising potential for exploring zero-shot learning neural networks for vision tasks. 
 
+**ID:** 38  
 **Title:** Molecular design method based on novel molecular representation and  variational auto-encoder  
-**PDF:** https://arxiv.org/pdf/2305.01580
-
+**PDF:** https://arxiv.org/pdf/2305.01580  
 **Abstract:** Based on the traditional VAE, a novel neural network model is presented, with the latest molecular representation, SELFIES, to improve the effect of generating new molecules. In this model, multi-layer convolutional network and Fisher information are added to the original encoding layer to learn the data characteristics and guide the encoding process, which makes the features of the data hiding layer more aggregated, and integrates the Long Short Term Memory neural network (LSTM) into the decoding layer for better data generation, which effectively solves the degradation phenomenon generated by the encoding layer and decoding layer of the original VAE model. Through experiments on zinc molecular data sets, it is found that the similarity in the new VAE is 8.47% higher than that of the original ones. SELFIES are better at generating a variety of molecules than the traditional molecular representation, SELFIES. Experiments have shown that using SELFIES and the new VAE model presented in this paper can improve the effectiveness of generating new molecules. 
 

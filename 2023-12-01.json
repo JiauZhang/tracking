@@ -463,7 +463,7 @@
     },
     {
         "id": "78",
-        "title": "Mavericks at ArAIEval Shared Task: Towards a Safer Digital Space -  Transformer Ensemble Models Tackling Deception and Persuasion",
+        "title": "Mavericks at ArAIEval Shared Task: Towards a Safer Digital Space --  Transformer Ensemble Models Tackling Deception and Persuasion",
         "pdf": "https://arxiv.org/pdf/2311.18730",
         "abstract": "In this paper, we highlight our approach for the \"Arabic AI Tasks Evaluation (ArAiEval) Shared Task 2023\". We present our approaches for task 1-A and task 2-A of the shared task which focus on persuasion technique detection and disinformation detection respectively. Detection of persuasion techniques and disinformation has become imperative to avoid distortion of authentic information. The tasks use multigenre snippets of tweets and news articles for the given binary classification problem. We experiment with several transformer-based models that were pre-trained on the Arabic language. We fine-tune these state-of-the-art models on the provided dataset. Ensembling is employed to enhance the performance of the systems. We achieved a micro F1-score of 0.742 on task 1-A (8th rank on the leaderboard) and 0.901 on task 2-A (7th rank on the leaderboard) respectively. "
     },

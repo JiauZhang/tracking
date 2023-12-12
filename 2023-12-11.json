@@ -331,9 +331,9 @@
     },
     {
         "id": "56",
-        "title": "DreaMoving: A Human Dance Video Generation Framework based on Diffusion  Models",
+        "title": "DreaMoving: A Human Video Generation Framework based on Diffusion Models",
         "pdf": "https://arxiv.org/pdf/2312.05107",
-        "abstract": "In this paper, we present DreaMoving, a diffusion-based controllable video generation framework to produce high-quality customized human dance videos. Specifically, given target identity and posture sequences, DreaMoving can generate a video of the target identity dancing anywhere driven by the posture sequences. To this end, we propose a Video ControlNet for motion-controlling and a Content Guider for identity preserving. The proposed model is easy to use and can be adapted to most stylized diffusion models to generate diverse results. The project page is available at https://dreamoving.github.io/dreamoving. "
+        "abstract": "In this paper, we present DreaMoving, a diffusion-based controllable video generation framework to produce high-quality customized human videos. Specifically, given target identity and posture sequences, DreaMoving can generate a video of the target identity moving or dancing anywhere driven by the posture sequences. To this end, we propose a Video ControlNet for motion-controlling and a Content Guider for identity preserving. The proposed model is easy to use and can be adapted to most stylized diffusion models to generate diverse results. The project page is available at https://dreamoving.github.io/dreamoving "
     },
     {
         "id": "57",

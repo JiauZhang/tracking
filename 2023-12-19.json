@@ -595,7 +595,7 @@
     },
     {
         "id": "100",
-        "title": "Understanding the Instruction Mixture for Large Language Model",
+        "title": "Understanding the Instruction Mixture for Large Language Model  Fine-tuning",
         "pdf": "https://arxiv.org/pdf/2312.10793",
         "abstract": "While instructions fine-tuning of large language models (LLMs) has been proven to enhance performance across various applications, the influence of the instruction dataset mixture on LLMs has not been thoroughly explored. In this study, we classify instructions into three main types: NLP downstream tasks, coding, and general chatting, and investigate their impact on LLMs. Our findings reveal that specific types of instructions are more beneficial for particular uses, while it may cause harms to other aspects, emphasizing the importance of meticulously designing the instruction mixture to maximize model performance. This study sheds light on the instruction mixture and paves the way for future research. "
     },
@@ -807,7 +807,7 @@
         "id": "135",
         "title": "\"Paraphrasing The Original Text\" Makes High Accuracy Long-Context QA",
         "pdf": "https://arxiv.org/pdf/2312.11193",
-        "abstract": "Although LLMs continue to iterate and improve, most open-source models still have a context window of no more than 4k, limiting their ability to handle long-context problems. Most existing open-source models for long-context chat still lack satisfactory accuracy. To address this issue, I approach it from the perspective of training data and theoretically prove that training the capability to handle long contexts requires \"effective\" rather than \"long\" data. Based on this, I propose using the \"original text paraphrase\" task, and successfully extend the context window of the existing model to 32k by a low-cost and effective method, achieving extremely high accuracy in multi-document-QA and surpassing all existing open-source models of the same scale. The model and training data have been open-sourced on HuggingFace and WiseModel. "
+        "abstract": "Although LLMs continue to iterate and improve, most open-source models still have a context window of no more than 4k, limiting their ability to handle long-context problems. Most existing open-source models for long-context chat still lack satisfactory accuracy. To address this issue, I approach it from the perspective of training data and theoretically prove that training the capability to handle long contexts requires \"effective\" rather than \"long\" data. Based on this, I propose using the \"original text paraphrase\" task, and successfully extend the context window of the existing model to 32k by a low-cost and effective method, achieving extremely high accuracy in multi-document-QA and surpassing all existing open-source models of the same scale. The model and training data have been open-sourced on HuggingFace(https://huggingface.co/yuyijiong/Qwen-14b-chat-yarn-32k) and WiseModel(https://wisemodel.cn/models/yuyijiong/Qwen-14b-chat-yarn-32k). "
     },
     {
         "id": "136",

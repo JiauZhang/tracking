@@ -193,7 +193,7 @@
     },
     {
         "id": "33",
-        "title": "Diffbody: Diffusion-based Pose and Shape Editing of Human Images",
+        "title": "DiffBody: Diffusion-based Pose and Shape Editing of Human Images",
         "pdf": "https://arxiv.org/pdf/2401.02804",
         "abstract": "Pose and body shape editing in a human image has received increasing attention. However, current methods often struggle with dataset biases and deteriorate realism and the person's identity when users make large edits. We propose a one-shot approach that enables large edits with identity preservation. To enable large edits, we fit a 3D body model, project the input image onto the 3D model, and change the body's pose and shape. Because this initial textured body model has artifacts due to occlusion and the inaccurate body shape, the rendered image undergoes a diffusion-based refinement, in which strong noise destroys body structure and identity whereas insufficient noise does not help. We thus propose an iterative refinement with weak noise, applied first for the whole body and then for the face. We further enhance the realism by fine-tuning text embeddings via self-supervised learning. Our quantitative and qualitative evaluations demonstrate that our method outperforms other existing methods across various datasets. "
     },
